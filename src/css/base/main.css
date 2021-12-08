@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-2);
+    font-size: var(--body-2);
+    line-height: 1.6;
+    background-color: var(--noir);
+    color: var(--blanc);
+  }
+  
+  h1 {
+    font-family: var(--h-e-a-d-e-r-1);
+    font-weight: normal;
+    line-height: 1.1;
+    color: var(--jaune)
+  }
+
+  h2 {
+    font-family: var(--h-e-a-d-e-r-2);
+    font-weight: normal;
+    line-height: 1.1;
+    color: var(--jaune);
+    text-transform: uppercase;
+  }
+
+  input[type="text"] {
+    border: 1px solid var(--jaune);
+    background-color: var(--noir);
+    width: 500px;
+    height: 300px;
+  }

@@ -1,0 +1,19 @@
+:root {
+   /* Color styles */
+--violet: rgba(206, 52, 146, 1);
+--jaune: rgba(255, 245, 0, 1);
+--noir: rgba(0, 0, 0, 1);
+--blanc: rgba(255, 255, 255, 1);
+
+/* Text-size styles */
+/* base size: t-i-t-l-e-accueil (16px) */
+--boutons: 0.88rem;
+--footer: 0.81rem;
+--h-e-a-d-e-r-3: 0.88rem;
+--h-e-a-d-e-r-2: 1.5rem;
+--body-1: 0.88rem;
+--body-2: 0.75rem;
+--h-e-a-d-e-r-1: 2.25rem;
+--t-i-t-l-e-accueil: 1rem;
+
+  }
