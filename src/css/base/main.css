@@ -30,9 +30,14 @@ body {
   input[type="text"] {
     border: 1px solid var(--jaune);
     background-color: var(--noir);
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 25px;
   }
+
+  textarea {
+    border: 1px solid var(--jaune);
+    background-color: var(--noir);
+}
 
   .acceuil {
     border: 1px solid var(--jaune);
