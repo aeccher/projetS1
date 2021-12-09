@@ -32,11 +32,13 @@ body {
     background-color: var(--noir);
     width: 400px;
     height: 25px;
+    color:var(--blanc)
   }
 
   textarea {
     border: 1px solid var(--jaune);
     background-color: var(--noir);
+    color: var(--blanc);
 }
 
   .acceuil {
