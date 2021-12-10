@@ -47,6 +47,14 @@ body {
     height: 60%;
   }  
 
+button {
+  border:none;
+  background: none; 
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+}
+
   a {
-    color: var(--jaune)
+    color: var(--jaune); 
   }
