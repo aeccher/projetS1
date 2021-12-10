@@ -19,8 +19,9 @@
     align-items: center;
   }
 
-.header_carre { 
+.header_carre::after{ 
   content: "EN";
+  border: none;
   width: 25px;
   height: 25px;
   background: var(--violet);

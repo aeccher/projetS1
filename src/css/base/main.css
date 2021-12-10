@@ -47,4 +47,6 @@ body {
     height: 60%;
   }  
 
-  
+  a {
+    color: var(--jaune)
+  }
