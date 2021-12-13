@@ -1,0 +1,5 @@
+.card {
+    border: 1px solid var(--jaune);
+    width: 50%;
+    height: 60%;
+  }  

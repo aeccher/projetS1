@@ -41,11 +41,6 @@ body {
     color: var(--blanc);
 }
 
-  .acceuil {
-    border: 1px solid var(--jaune);
-    width: 50%;
-    height: 60%;
-  }  
 
 button {
   border:none;
