@@ -19,3 +19,5 @@
 /* components */
 @import url('components/menu.css');
 @import url('components/card.css');
+@import "components/carousel.css";
+

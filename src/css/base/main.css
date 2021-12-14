@@ -27,7 +27,8 @@ body {
     text-transform: uppercase;
   }
 
-  input[type="text"] {
+  input[type="text"],
+  input[type="email"] {
     border: 1px solid var(--jaune);
     background-color: var(--noir);
     width: 400px;
@@ -53,3 +54,4 @@ button {
   a {
     color: var(--jaune); 
   }
+

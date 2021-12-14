@@ -1,0 +1,13 @@
+.caroussel {
+    display: flex;
+    gap: var(--space2x);
+    overflow-x: scroll;
+    margin-left: calc(0px - var(--space3x));
+    margin-right: calc(0px - var(--space3x));
+    scroll-snap-type: x mandatory;
+  }
+  
+  .caroussel__item {
+    flex: 1 0 260px;
+    scroll-snap-align: start;
+  }
