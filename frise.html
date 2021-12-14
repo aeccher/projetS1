@@ -5,41 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FÉMINIÉDUC-Frise</title>
-
+    
+<!-- Déclaration de la feuille de style -->
     <link rel="stylesheet" href="src/css/style.css">
     
 </head>
 <body>
-    <header class="header">
-        <div class="header__start">
-          <a class="header__logo" href="/">
-              <img src="public/img/logo.svg" alt="Logo">  
-          </a>
-        </div>
-  
-        <div class="header__end">
-             <h1>FÉMINIÉDUC</h1>
-        </div>
+<!-- En-tête de la page -->
+  <header class="header">
+    <div class="header__start">
+      <a class="header__logo" href="/">
+          <img src="public/img/logo.svg" alt="Logo">  
+      </a>
+    </div>
 
-        <button class="header__menu-btn menu-btn">
-            <span class="menu-btn__bar"></span>
-          </button>
+    <div class="header__end">
+         <h1>FÉMINIÉDUC</h1>
+    </div>
+
+    <button class="header_carre">
+    </button>
+
+    <button class="header__menu-btn menu-btn" onclick="document.documentElement.classList.toggle('menu-open')">
+        <span class="menu-btn__bar"></span>
+      </button>
 </header>
 
-<nav class="header__menu menu">
-    <ul class="menu__list">
-      <li class="menu__item"><a href="index.html">Accueil</a></li>
-      <li class="menu__item"><a href="article1.html">Ce que nous dit le féminisme</a></li>
-      <li class="menu__item"><a href="article2.html">Malala Yousafzai et sa lutte pour l’éducation des filles</a>></li>
-      <li class="menu__item"><a href="article3.html">Féminisme et lutte pour l’éducation des filles dans le monde</a></li>
-      <li class="menu__item"><a href="frise.html">Frise</a></li>
-      <li class="menu__item"> <a href="galerie.html">Galerie "portraits de femme"</a></li>
-      <li class="menu__item"><a href="glossaire.html">Glossaire</a></li>
-      <li class="menu__item"><a href="contact.html">Contact</a></li>
-      <li class="menu__item"><a href="a_propos_de_moi.html">À propos de moi</a></li>
-      <li class="menu__item"> <a href="autres_projets.html">Autres projets</a></li>
-    </ul>
-  </nav>
+<nav class="header_menu menu">
+<ul class= "menu__list">
+  <li class="menu__item">
+    <a class="menu__link" href="index.html">Accueil</a>
+  </li>
+  <li class="menu__item">
+    <a class="menu__link" href="article1.html">Ce que nous dit le féminisme</a>
+  </li>
+  <li class="menu__item">
+    <a class="menu__link" href="article2.html">Malala Yousafzai et sa lutte pour l’éducation des filles</a>
+  </li>
+  <li class="menu__item">
+    <a class="menu__link" href="article3.html">Féminisme et lutte pour l’éducation des filles dans le monde</a>
+  </li>
+  <li class="menu__item">
+    <a class="menu__link"href="frise.html">Frise</a>
+  </li>
+  <li class="menu__item">
+    <a class="menu__link" href="galerie.html">Galerie "portraits de femme"</a>
+  </li>
+  <li class="menu__item">
+    <a class="menu__link" href="glossaire.html">Glossaire</a>
+  </li>
+  <li class="menu__item">
+    <a class="menu__link" href="contact.html">Contact</a>
+  </li>
+  <li class="menu__item">
+    <a class="menu__link" href="a_propos_de_moi.html">À propos de moi</a>
+  </li>
+  <li class="menu__item">
+    <a class="menu__link" href="autres_projets.html">Autres projets</a>
+  </li>
+</ul>
+</nav>
+
+<main>
 
     <h2>Frise-L'exemple de la France</h2>
 
@@ -61,12 +88,14 @@
     <p>2001 : Loi Génisson concernant l’égalité professionnelle entre les hommes et les femmes. Tous les 3 ans l’égalité professionnelle au sein d’une entreprise doit être abordé par les partenaires sociaux </p>
     <p>2006 : Convention interministérielle pour l’égalité entre filles et garçons dans le système éducatif. Pour les filles, l’âge du mariage légal à 18 ans au lieu de 15 ans. </p>
 
-    <footer> 
-        <hr>
-        <p>Agathe ECCHER A2</p>
-        <a href="mailto:agathe.eccher@edu.univ-fcomte.fr">agathe.eccher@edu.univ-fcomte.fr</a>
-        <p>“projet réalisé dans le cadre d’un exercice pédagogique au département <a href="http://mmimontbeliard.com/"> MMi de Montbéliard“</a></p>
-    </footer>
+</main>
+
+<footer class="footer"> 
+  <hr>
+  <p>Agathe ECCHER A2</p>
+  <a href="mailto:agathe.eccher@edu.univ-fcomte.fr">agathe.eccher@edu.univ-fcomte.fr</a>
+  <p>“projet réalisé dans le cadre d’un exercice pédagogique au département <a href="http://mmimontbeliard.com/"> MMi de Montbéliard“</a></p>
+</footer>
     
 </body>
 </html>

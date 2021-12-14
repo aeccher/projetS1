@@ -9,5 +9,24 @@
   
   .caroussel__item {
     flex: 1 0 260px;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
   }
+  
+  .caroussel__item img {
+    display: block;
+  }
+  
+  /* pour personnaliser graphiquement la barre d'ascenseur 
+  
+  .caroussel::-webkit-scrollbar-track {
+    background-color: var(--gray-200);
+  }
+  
+  .caroussel::-webkit-scrollbar {
+    height: 4px;
+    background-color: var(--gray-white);
+  }
+  
+  .caroussel::-webkit-scrollbar-thumb {
+    background-color: var(--brand-saumon);
+  } */

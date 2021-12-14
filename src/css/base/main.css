@@ -27,6 +27,14 @@ body {
     text-transform: uppercase;
   }
 
+  h3 {
+    font-family: var(--body-1);
+    font-size: var(--body-1);
+    background-color: var(--noir);
+    color: var(--jaune);
+    text-align: center;
+  }
+
   input[type="text"],
   input[type="email"] {
     border: 1px solid var(--jaune);
@@ -53,5 +61,9 @@ button {
 
   a {
     color: var(--jaune); 
+  }
+
+  .aboutme {
+    text-align: center;
   }
 

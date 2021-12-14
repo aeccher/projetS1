@@ -1,5 +1,7 @@
 .card {
-    border: 1px solid var(--jaune);
-    width: 50%;
-    height: 60%;
-  }  
+  border: 1px solid var(--jaune);
+  width: 70%;
+  height: 60%;
+  margin: auto;
+  padding: 20px;
+}  
