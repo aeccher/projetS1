@@ -1,7 +1,14 @@
 .card {
-  border: 1px solid var(--jaune);
-  width: 70%;
-  height: 60%;
+  width: 80%;
   margin: auto;
-  padding: 20px;
 }  
+
+.card__img {
+  width:50%;
+  margin-left: 50%;
+}
+
+.card__caption {
+  border: 1px solid var(--jaune);
+  padding: 20px;
+}
