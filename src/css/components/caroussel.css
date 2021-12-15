@@ -1,9 +1,9 @@
 .caroussel {
     display: flex;
-    gap: var(--space2x);
+    gap: 20px;
     overflow-x: scroll;
-    margin-left: calc(0px - var(--space3x));
-    margin-right: calc(0px - var(--space3x));
+    margin-left: calc(0px - 20px);
+    margin-right: calc(0px - 20px);
     scroll-snap-type: x mandatory;
   }
   
@@ -15,18 +15,4 @@
   .caroussel__item img {
     display: block;
   }
-  
-  /* pour personnaliser graphiquement la barre d'ascenseur 
-  
-  .caroussel::-webkit-scrollbar-track {
-    background-color: var(--gray-200);
-  }
-  
-  .caroussel::-webkit-scrollbar {
-    height: 4px;
-    background-color: var(--gray-white);
-  }
-  
-  .caroussel::-webkit-scrollbar-thumb {
-    background-color: var(--brand-saumon);
-  } */
+ 
