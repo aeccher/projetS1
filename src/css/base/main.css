@@ -37,6 +37,7 @@ body {
     text-align: center;
   }
 
+/* page d'accueil */
  .tagline { 
     margin-top: 100px;
     text-align: center;
@@ -51,6 +52,9 @@ body {
     margin-right: 20px;
     font-family: var(--body-1);
   }
+
+
+/* page Contact */
  
   input[type="text"],
   input[type="email"] {
