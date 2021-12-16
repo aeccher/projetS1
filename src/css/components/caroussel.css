@@ -1,18 +1,17 @@
-.caroussel {
+.carrousel {
     display: flex;
     gap: 20px;
     overflow-x: scroll;
-    margin-left: calc(0px - 20px);
-    margin-right: calc(0px - 20px);
+    margin-left: (20px);
+    margin-right: (20px);
     scroll-snap-type: x mandatory;
   }
   
-  .caroussel__item {
+  .carrousel__item {
     flex: 1 0 260px;
     scroll-snap-align: center;
   }
   
-  .caroussel__item img {
-    display: block;
-  }
+  
+  
  
