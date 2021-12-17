@@ -6,7 +6,7 @@
 
 /* Les règles typographiques générales qui s'appliquent à tout le site */
 body {
-    font-family: var(--body-2);
+    font-family: var(--belgrano);
     font-size: var(--body-2);
     line-height: 1.6;
     background-color: var(--noir);
@@ -17,14 +17,16 @@ body {
  
 /* Les règles typographiques générales des titres */
   h1 {
-    font-family: var(--h-e-a-d-e-r-1);
+    font-family: var(--font-bebas-neue);
+    font-size: var(--h-e-a-d-e-r-1);
     font-weight: normal;
     line-height: 1.1;
     color: var(--jaune)
   }
 
   h2 {
-    font-family: var(--h-e-a-d-e-r-2);
+    font-family: var(--font-bebas-neue);
+    font-size: var(--h-e-a-d-e-r-2);
     font-weight: normal;
     line-height: 1.1;
     color: var(--jaune);
@@ -32,19 +34,23 @@ body {
   }
 
   h3 {
-    font-family: var(--body-1);
+    font-family: var(--belgrano);
     font-size: var(--body-1);
     background-color: var(--noir);
     color: var(--jaune);
     text-align: center;
   }
 
+/* permet de redecendre le contenu de la page en dessous du header */
+  main{
+    padding-top: 100px;
+  } 
+
 /* page d'accueil */
  .tagline { 
-    margin-top: 100px;
     text-align: center;
     color: var(--jaune);
-    font-family: var(--body-1);
+    font-family: var(--belgrano);
     font-size: 2rem; 
   }
 
@@ -52,17 +58,20 @@ body {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    font-family: var(--body-1);
+    font-family: var(--belgrano);
   }
 
 
 /* page Contact */
+.formulaire{
+  max-width: 100%;
+}
  
   input[type="text"],
   input[type="email"] {
     border: 1px solid var(--jaune);
     background-color: var(--noir);
-    width: 400px;
+    width: 100%;
     height: 25px;
     color:var(--blanc)
   }
@@ -77,6 +86,7 @@ body {
     border: 1px solid var(--jaune);
     background-color: var(--noir);
     color: var(--blanc);
+    width: 100%;
 }
 
 /* permet d'annuler la mise en forme des bouton qu'applique le navigateur. */
@@ -88,13 +98,28 @@ button {
   position: relative;
 }
 
+/* permet que tous les liens soient de couleur jaune*/
   a {
     color: var(--jaune); 
   }
 
-  .aboutme {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+/* page À propos de moi */
+.aboutme {
+  margin-top: 30px;
+}
+
+.aboutme__title {
+  text-align: center;
+}
+
+.aboutme__text {
+  margin-top: 50px;
+  margin-bottom: 140px;
+}
+
+.aboutme__img {
+  width:70%;
+  margin: auto;
+}
 
 
