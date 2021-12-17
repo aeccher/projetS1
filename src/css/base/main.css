@@ -31,10 +31,11 @@ body {
     line-height: 1.1;
     color: var(--jaune);
     text-transform: uppercase;
+    text-align: center;
   }
 
   h3 {
-    font-family: var(--belgrano);
+    font-family: var(--font-belgrano);
     font-size: var(--body-1);
     background-color: var(--noir);
     color: var(--jaune);
@@ -50,7 +51,7 @@ body {
  .tagline { 
     text-align: center;
     color: var(--jaune);
-    font-family: var(--belgrano);
+    font-family: var(--font-belgrano);
     font-size: 2rem; 
   }
 
@@ -58,13 +59,18 @@ body {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    font-family: var(--belgrano);
+    font-family: var(--font-belgrano);
+  }
+
+  .introduction_text {
+    color:var(--jaune)
   }
 
 
 /* page Contact */
 .formulaire{
   max-width: 100%;
+  padding-top: 10%;
 }
  
   input[type="text"],
@@ -80,6 +86,7 @@ body {
     background-color: var(--violet);
     font-family: var(--boutons);
     text-transform:uppercase; 
+    margin-left: 70% ;
 }
 
   textarea {
@@ -96,6 +103,8 @@ button {
   -webkit-appearance: none;
   appearance: none;
   position: relative;
+  font-family: var(--font-bebas-neue);
+  font-size: var(--boutons);
 }
 
 /* permet que tous les liens soient de couleur jaune*/

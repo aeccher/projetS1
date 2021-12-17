@@ -14,3 +14,12 @@
   border: 1px solid var(--jaune);
   padding: 20px;
 }
+
+.card__title { 
+  font-family: var(--font-belgrano);
+  font-size: var(--body-1);
+}
+
+.card__btn {
+  padding-left: 70%;
+}

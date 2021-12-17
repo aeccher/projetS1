@@ -14,6 +14,7 @@
   .header__start,
   .header__end {
     display: flex;
+    z-index: 2;
   }
   .header__start{
     align-items: center;
@@ -24,6 +25,7 @@
   height: 33.48px;
   background: var(--violet);
   margin-top: 32px;
+  z-index: 2;
 }
 
 .header__carre::after{ 

@@ -12,6 +12,11 @@
     scroll-snap-align: center;
   }
   
+.carrousel__img {
+  display: flex;
+  margin: auto;
+}
+
   
   
  

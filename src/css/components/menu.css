@@ -75,6 +75,7 @@
   font-family: var(--h-e-a-d-e-r-2);
   margin-left: 20px;
   margin-right: 20px;
+  padding-top: 100px;
 }
 
 .menu li{ 
@@ -84,4 +85,7 @@
 .menu a { 
   color: var(--blanc);
   text-decoration:none;
+  font-family: var(--font-bebas-neue);
 }
+
+
