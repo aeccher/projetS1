@@ -131,4 +131,23 @@ button {
   margin: auto;
 }
 
-
+/* page Frise */
+.timeline {
+  background-image: url("/public/img/arrow.png");
+  background-repeat: no-repeat;
+  background-position: bottom 100px left -50px;
+  background-size: 133%;
+}
+.timeline__text1 { 
+  padding-top: 58px;
+  margin-right: 180px;
+  margin-left: 5px;
+}
+.timeline__text2 {
+  margin-left: 200px;
+  margin-top: -20px;
+}
+.timeline__text3 {
+  margin-right: 180px;
+  margin-left: 5px;
+}

@@ -89,7 +89,7 @@
 }
 
 
-hr{
+.menu hr{
   height: 3px;
   background-color: var(--jaune);
   border: none;
