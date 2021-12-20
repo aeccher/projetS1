@@ -10,13 +10,10 @@
   .carrousel__item {
     flex: 1 0 260px;
     scroll-snap-align: center;
+    list-style: none;
   }
   
 .carrousel__img {
   display: flex;
   margin: auto;
 }
-
-  
-  
- 
