@@ -75,7 +75,7 @@
   font-family: var(--h-e-a-d-e-r-2);
   margin-left: 20px;
   margin-right: 20px;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .menu a { 
@@ -85,12 +85,16 @@
   font-size: var(--h-e-a-d-e-r-2);
 }
 
-
 .menu hr{
   height: 3px;
   background-color: var(--jaune);
   border: none;
 }
+
+.menu__line { 
+  width:100%; height:1px; background: var(--jaune)
+} 
+
 .menu li:nth-child(3) a,
 .menu li:nth-child(5) a,
 .menu li:nth-child(7) a { 

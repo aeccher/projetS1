@@ -22,4 +22,6 @@
 
 .card__btn {
   padding-left: 70%;
+  font-family: var(--font-bebas-neue);
+  font-size: var(--boutons);
 }
