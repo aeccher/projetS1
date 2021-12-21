@@ -171,3 +171,8 @@ pour faire disparaître le scroll sur safari IOS */
   margin-left: 5px;
 }
 
+/* page Glossaire */
+.glossaire__title {
+  color: var(--jaune);
+}
+
