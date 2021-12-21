@@ -37,7 +37,11 @@ body {
   h3 {
     font-family: var(--font-belgrano);
     font-size: var(--body-1);
-    background-color: var(--noir);
+  }
+
+  h4 {
+    font-family: var(--font-belgrano);
+    font-size: var(--body-1);
     color: var(--jaune);
     text-align: center;
   }
@@ -46,6 +50,36 @@ body {
   main{
     padding-top: 100px;
   } 
+
+  /* permet d'annuler la mise en forme des bouton qu'applique le navigateur. */
+button {
+  border:none;
+  background: none; 
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+  font-family: var(--font-bebas-neue);
+  font-size: var(--boutons);
+}
+
+/* permet que tous les liens soient de couleur jaune*/
+  a {
+    color: var(--jaune); 
+  }
+
+/* permet d'enlever les marges sur les citations longues */
+blockquote{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+  /* Bug IOS
+=> L'overflow doit être appliqué sur l'élément body ET html
+pour faire disparaître le scroll sur safari IOS */
+.noscroll,
+.noscroll body {
+  overflow: hidden;
+}
 
 /* page d'accueil */
  .tagline { 
@@ -96,22 +130,6 @@ body {
     width: 100%;
 }
 
-/* permet d'annuler la mise en forme des bouton qu'applique le navigateur. */
-button {
-  border:none;
-  background: none; 
-  -webkit-appearance: none;
-  appearance: none;
-  position: relative;
-  font-family: var(--font-bebas-neue);
-  font-size: var(--boutons);
-}
-
-/* permet que tous les liens soient de couleur jaune*/
-  a {
-    color: var(--jaune); 
-  }
-
 /* page À propos de moi */
 .aboutme {
   margin-top: 30px;
@@ -137,6 +155,7 @@ button {
   background-repeat: no-repeat;
   background-position: bottom 100px left -50px;
   background-size: 133%;
+ 
 }
 .timeline__text1 { 
   padding-top: 58px;
@@ -151,3 +170,4 @@ button {
   margin-right: 180px;
   margin-left: 5px;
 }
+

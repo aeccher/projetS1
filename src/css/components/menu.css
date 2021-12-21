@@ -78,14 +78,11 @@
   padding-top: 100px;
 }
 
-.menu li{ 
-  margin-bottom: 30px;
-}
-
 .menu a { 
   color: var(--blanc);
   text-decoration:none;
   font-family: var(--font-bebas-neue);
+  font-size: var(--h-e-a-d-e-r-2);
 }
 
 

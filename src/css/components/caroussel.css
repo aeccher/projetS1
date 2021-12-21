@@ -1,5 +1,6 @@
 .carrousel {
     display: flex;
+    flex-direction: row;
     gap: 20px;
     overflow-x: scroll;
     margin-left: (20px);
@@ -14,6 +15,5 @@
   }
   
 .carrousel__img {
-  display: flex;
   margin: auto;
 }
