@@ -176,3 +176,20 @@ pour faire disparaître le scroll sur safari IOS */
   color: var(--jaune);
 }
 
+
+/* page Autres projets */
+.autresprojets__text {
+  margin-left: 20px;
+  margin-top: 50px; 
+}
+
+.autresprojets__text2 {
+  margin-top: -63px;
+  margin-left: 180px;
+}
+
+.autresprojets__text3 {
+  margin-left: 126px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
