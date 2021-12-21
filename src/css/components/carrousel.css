@@ -1,0 +1,12 @@
+.carrousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.carrousel__item {
+  flex: 0 0 260px;
+  scroll-snap-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
