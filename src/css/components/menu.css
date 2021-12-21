@@ -91,3 +91,8 @@
   background-color: var(--jaune);
   border: none;
 }
+.menu li:nth-child(3) a,
+.menu li:nth-child(5) a,
+.menu li:nth-child(7) a { 
+  color: var(--jaune) 
+}
