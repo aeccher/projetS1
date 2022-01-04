@@ -149,26 +149,34 @@ pour faire disparaître le scroll sur safari IOS */
   margin: auto;
 }
 
-/* page Frise */
-.timeline {
-  background-image: url("/public/img/arrow.png");
-  background-repeat: no-repeat;
-  background-position: bottom 100px left -50px;
-  background-size: 133%;
- 
+/* page Frise*/
+
+.timeline__arrow {
+  height: 100;
 }
+
+.timeline__img {
+  width: 500%;
+  margin:auto;
+  position: absolute;
+}
+
 .timeline__text1 { 
-  padding-top: 58px;
-  margin-right: 180px;
-  margin-left: 5px;
+  padding-top: 92px;
+  margin-right: 188px;
+  margin-left: 34px;
+  position: relative;
 }
 .timeline__text2 {
-  margin-left: 200px;
+  margin-left: 209px;
+  margin-right: 20px;
   margin-top: -20px;
+  position: relative;
 }
 .timeline__text3 {
   margin-right: 180px;
-  margin-left: 5px;
+  margin-left: 34px;
+  position: relative;
 }
 
 /* page Glossaire */

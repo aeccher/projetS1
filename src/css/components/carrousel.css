@@ -11,6 +11,7 @@
   margin-left: 20px;
 }
 
-.carrousel__item figcaption {
-  color: var(--jaune);
+.carrousel__item__text {
+  color:var(--jaune)
 }
+
