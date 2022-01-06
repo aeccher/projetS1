@@ -157,6 +157,7 @@ pour faire disparaître le scroll sur safari IOS */
 
 .timeline__img {
   width: 500%;
+  height: 280%;
   margin:auto;
   position: absolute;
 }
